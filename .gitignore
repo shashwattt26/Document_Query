@@ -1,0 +1,25 @@
+# Environment Variables
+.env
+
+# Local Vector Database
+chroma_db/
+
+# Data folder (keep the folder but ignore contents)
+data/*
+!data/.gitkeep
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# HuggingFace cache (if any)
+.cache/
